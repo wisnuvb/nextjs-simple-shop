@@ -13,8 +13,7 @@
     "lint": "next lint",
     "generate": "node _generator.js",
     "test": "jest --coverage",
-    "test:watch": "jest --watch",
-    "postinstall": "sh ./.ci-8dzhe2.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
